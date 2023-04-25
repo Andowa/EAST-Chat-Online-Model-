@@ -11,7 +11,7 @@ const it: LocaleType = {
     ChatItemCount: (count: number) => `${count} messaggi`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} messaggi con ChatGPT`,
+    SubTitle: (count: number) => `${count} messaggi con EAST-Chat`,
     Actions: {
       ChatList: "Vai alla Chat List",
       CompressedHistory: "Prompt di memoria della cronologia compressa",
@@ -37,7 +37,7 @@ const it: LocaleType = {
     Copy: "Copia tutto",
     Download: "Scarica",
     MessageFromYou: "Messaggio da te",
-    MessageFromChatGPT: "Messaggio da ChatGPT",
+    MessageFromChatGPT: "Messaggio da EAST-Chat",
   },
   Memory: {
     Title: "Prompt di memoria",
