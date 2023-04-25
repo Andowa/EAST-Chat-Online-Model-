@@ -98,7 +98,7 @@ function exportMessages(messages: Message[], topic: string) {
       .map((m) => {
         return m.role === "user"
           ? `## ${Locale.Export.MessageFromYou}:\n${m.content}`
-          : `## ${Locale.Export.MessageFromEAST-Chat}:\n${m.content.trim()}`;
+          : `## ${Locale.Export.MessageFromEAST}:\n${m.content.trim()}`;
       })
       .join("\n\n");
   const filename = `${topic}.md`;
