@@ -63,7 +63,7 @@ export const ALL_MODELS = [
   },
   {
     name: "Pre 2.0(测试)",
-    available: true,
+    available: ENABLE_GPT4,
   },
   {
     name: "Pre-1.0",
